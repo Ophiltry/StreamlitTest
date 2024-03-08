@@ -37,7 +37,7 @@ with col3:
 
 with col4:
    st.header("Fun header" , divider="green")
-   st.write(data["languages"])
+   st.write("fun")
 
 with col5:
    st.header("Fun header" , divider="blue")
