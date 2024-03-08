@@ -7,10 +7,12 @@ with open("test2.json", "r") as f:
 
 #print(data["name"])
 
-st.write(data["name"])
+#st.write(data["name"])
 
 
-st.write("blah")
+#st.write("blah")
+
+st.balloons()
 
 
 
