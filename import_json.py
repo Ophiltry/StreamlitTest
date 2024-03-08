@@ -20,7 +20,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
    st.header("Name" , divider="red")
-   st.write(data[":blue[name]"])
+   st.write(:blue[data["name"]])
 
 with col2:
    st.header("Age")
