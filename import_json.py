@@ -5,6 +5,8 @@ with open("test2.json", "r") as f:
 
 print(data["name"])
 
+st.write(data["name"])
+
 
 
 
