@@ -11,7 +11,10 @@ with open("test2.json", "r") as f:
 
 
 #st.write("blah")
-st.set_page_config(page_title="Test Website")
+st.set_page_config(
+    page_title="Test Website",
+    layout="wide"
+)
 st.balloons()
 st.header("JSON test")
 
