@@ -32,7 +32,7 @@ with col2:
    st.write(data["age"])
 
 with col3:
-   st.header("Language" , divider="yellow")
+   st.header("Language" , divider="orange")
    st.write(data["languages"])
 
 with col4:
