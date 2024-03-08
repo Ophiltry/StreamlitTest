@@ -28,19 +28,19 @@ with col1:
    st.write(data["name"])
 
 with col2:
-   st.header("Age")
+   st.header("Age" , divider="red")
    st.write(data["age"])
 
 with col3:
-   st.header("Language")
+   st.header("Language" , divider="orange")
    st.write(data["languages"])
 
 with col4:
-   st.header("Fun header")
+   st.header("Fun header" , divider="yellow")
    st.write(data["languages"])
 
 with col5:
-   st.header("Fun header")
+   st.header("Fun header" , divider="green")
    st.write(data["languages"])
 
 st.header("JSON test bottom header", divider="blue")
