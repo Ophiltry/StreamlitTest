@@ -16,7 +16,7 @@ st.balloons()
 
 
 
-col1, col2, col3 = st.columns([1,2,3])
+col1, col2, col3 = st.columns([1,2,3], gap="large")
 
 with col1:
    st.header("Name")
