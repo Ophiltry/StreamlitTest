@@ -41,6 +41,6 @@ with col4:
 
 with col5:
    st.header("Fun header" , divider="blue")
-   st.write(data["languages"])
+   st.write("mo fun")
 
 st.header("JSON test bottom header", divider="blue")
