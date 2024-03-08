@@ -21,8 +21,8 @@ col1, col2, col3 = st.columns(3, gap="large")
 with col1:
    st.header("Name" , divider="red")
    st.write(data["name"])
-    st.write(data["name"])
-    st.write(data["name"])
+   st.write(data["name"])
+   st.write(data["name"])
 
 with col2:
    st.header("Age")
