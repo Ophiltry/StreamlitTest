@@ -19,7 +19,7 @@ st.balloons()
 col1, col2, col3 = st.columns(3)
 
 with col1:
-   st.header("Name" , divider="red")
+   st.header("Name" , divider="rainbow")
    st.write(data["name"])
 
 with col2:
