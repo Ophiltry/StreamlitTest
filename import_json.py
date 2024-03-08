@@ -16,7 +16,7 @@ st.balloons()
 st.header("JSON test")
 
 
-col1, col2, col3, col4, col5 = st.columns(5, gap="large")
+col1, col2, col3, col4, col5 = st.columns([1,1,1,1,1], gap="large")
 
 with col1:
    st.header("Name" , divider="red")
